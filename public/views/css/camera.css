@@ -1,0 +1,45 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 100%;
+}
+
+h4 {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 2em;
+    margin: 1%;
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+
+/*CHEVRONS*/
+
+.arrows {
+    display: flex;
+    justify-content: space-around;
+}
+
+.arrow_right {
+    width: 4%;
+}
+
+.arrow_left {
+    width: 4%;
+}

@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+
+}
+
+.cm-cat-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    margin: 10vh auto;
+}
+
+.cm-cat-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.cm-cat-button {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.cm-cat-button:hover {
+    opacity: 0.8;
+}
+
+.cm-cat-button svg {
+    width: 130px;
+    height: 130px;
+}
+
+.cm-cat-button p {
+    font-weight: bold;
+    color: white;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+#cm-cat-color-01 {
+    background-image: linear-gradient(135deg, #C7B0E1, #5A618B);
+}
+
+#cm-cat-color-02 {
+    background-image: linear-gradient(135deg, #74DFE8, #346164);
+}
+
+#cm-cat-color-03 {
+    background-image: linear-gradient(135deg, #D8A890, #7E5B48);
+}
+
+#cm-cat-color-04 {
+    background-image: linear-gradient(135deg, #FFC192, #A4724C);
+}
+
+#cm-cat-color-05 {
+    background-image: linear-gradient(135deg, #F2EFA6, #A7A341);
+}
+
+#cm-cat-color-06 {
+    background-image: linear-gradient(135deg, #EC9595, #8F4D4D);
+}

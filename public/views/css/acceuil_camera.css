@@ -1,0 +1,152 @@
+html {}
+
+.container_svg {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.boite_salon {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    background-color: blueviolet;
+    border-radius: 10%;
+    background-image: linear-gradient(160deg, #CF3BF4, blueviolet, #240F8D);
+
+}
+
+.svg_salon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10%;
+    width: 40%;
+    height: 80%
+}
+
+
+
+.boite_chambre_parentale {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    background-color: blueviolet;
+    border-radius: 10%;
+    background-image: linear-gradient(160deg, #09806C, #005144, #1D456C);
+}
+
+.svg_chambre_parentale {
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+    width: 40%;
+    height: 80%
+}
+
+
+
+.boite_bureau {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    background-color: blueviolet;
+    border-radius: 10%;
+    background-image: linear-gradient(160deg, #C49015, #90680A, #624604);
+}
+
+.svg_bureau {
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+    width: 40%;
+    height: 80%
+}
+
+
+
+.boite_chambre_enfant {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    background-color: blueviolet;
+    border-radius: 10%;
+    background-image: linear-gradient(160deg, #F6E497, #EAA742, #A14E0E);
+}
+
+.svg_chambre_enfant {
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+    width: 40%;
+    height: 80%
+}
+
+
+
+.boite_cuisine {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    background-color: blueviolet;
+    border-radius: 10%;
+    background-image: linear-gradient(160deg, #F9F000, #D0CC58, #918E30);
+}
+
+.svg_cuisine {
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+    width: 40%;
+    height: 80%
+}
+
+
+
+.boite_exterrieur {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    background-color: blueviolet;
+    border-radius: 10%;
+    background-image: linear-gradient(160deg, #F3966E, #E9500F, #8E2C01);
+}
+
+.svg_exterrieur {
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+    width: 40%;
+    height: 80%
+}
+
+.titre_svg_menu_camera{
+    display: flex;
+    font-family: sans-serif;
+    font-size: 1em;
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+}
+
+.error-cat-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    margin: 10vh auto;
+}
+
+.error-cat-column svg {
+    height: 50vh;
+}
+
+.error-cat-column h1 {
+    color: #84A5FF;
+    font-weight: bold;
+    font-size: 6em;
+}
+
+.error-cat-column p {
+    color: #84A5FF;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: right;
+    margin: 20px 0 20px 0;
+}
+
+.error-cat-column {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.error-cat-button {
+    width: auto;
+    height: 5vh;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(135deg, #C7B0E1, #84A5FF);
+    border: solid 1px lightgray;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 0 10px 0 10px;
+}
+
+.error-cat-button:hover {
+    opacity: 0.8;
+    border: solid 1px gray;
+}
+
+.error-cat-button svg {
+    width: 130px;
+    height: 130px;
+}
+
+.error-cat-button svg {
+    width: 35px;
+    height: auto;
+}
+
+.error-cat-button p {
+    color: #FFFFFF;
+    margin-left: 50px;
+    font-size: 1.2em;
+    text-align: right;
+    font-weight: bold;
+}
+
+.error-cat-button:hover {
+    opacity: 0.8;
+}
